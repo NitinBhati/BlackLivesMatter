@@ -1,4 +1,5 @@
-# BlackLivesMatter
+![alt text](BlackLivesMatter/static/blacklivesmatter-1.jpeg?raw=true)
+
 ### INTRODUCTION
 Machine learning algorithms are amplifying present-day social inequities. Unfairness in such
 algorithms are becoming increasingly popular and receiving attention from researchers to help
