@@ -1,5 +1,5 @@
 # BlackLivesMatter
-###INTRODUCTION
+### INTRODUCTION
 Machine learning algorithms are amplifying present-day social inequities. Unfairness in such
 algorithms are becoming increasingly popular and receiving attention from researchers to help
 resolve the bias factor in applications such as criminal judgement, loan application, university
@@ -12,7 +12,7 @@ aim here is to remove discrimination by adjusting the predictor values, since th
 and outcome data are in the protected group. The fairness and accuracy of the algorithm are
 eventually improved, which is the prime work done in the project.
 
-###GOAL
+### GOAL
 Is to analyse a decision-making program and construct a proof of its fairness or unfairness.
 The focus is on equality of opportunity.
 The prime focus of this research is to analyse the fairness of the algorithm based on the protected
@@ -21,14 +21,14 @@ is to remove discrimination by adjusting the predictor values, target and outcom
 protected group. The fairness and accuracy of the algorithm is eventually improved, which is the
 prime work done in the project.
 
-###CONCLUSION
+### CONCLUSION
 
 *The shortcomings of the demographic parity as a fairness notion are removed by the introduction of equal opportunity and equalized odds. It is also fully aligned with the concept of supervised learning that is to build a higher accuracy classifier.​
 *Although supervised learning have been quite successful which shows that this requirement is met in many applications, but it is not always possible to get labeled data.​
 *For achieving better results with equalized odds we need features that are directly focused on target variable and not related to the protected attribute.​
 *There is a need to go through data processing steps before passing it to the system for calculating thresholds. This shows we need domain level scrutiny.
 
-###REFERENCES
+### REFERENCES
 Albarghouthi, A., D’Antoni, L., Drews, S., Nori, A. (November 2016). 
 Fairness as a program property. In 3rd workshop on fairness, accountability and transparency in
 machine learning. Retrieved from URL: https://arxiv.org/pdf/1610.06067.pdf
