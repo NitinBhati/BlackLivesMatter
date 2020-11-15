@@ -1,0 +1,16 @@
+<h4> The Need For Fairness</h4>
+					<p>Our classification algorithms makes use of historic data which reflects the biased nature of the society towards certain categories. For example:
+					There has always been discrimination on the basis of race, white people tend to get good education, good job and good money whereas black people did not always get good resources 
+					to excel in the same way. Though the society is now changing na dpeople are getting equal rights, the things being done on the past are being reflected in the data being recorded in that time. Now these classification
+                    algorithms use these datasets and unknowingly classify the supressed class in a bad way although they now might have different situations and are open to different opportunities. Consider the example of giving a bank loan. In recent times there must be less number of white people who were not able to pay off their loan
+                    as compared to the black people. But this should not interfere with the descision making of whether to give the loan or not in the present time. Classification should be done without keeping in mind their race or color. This is what we meant by fairness in classification.</p>
+					<h4>Designed System In Brief</h4>
+					<p>* Our algorithm proposes an easy to be authenticated and illustrable notion of avoiding discrimination based on the protected attributes.
+					* We give a simple framework to construct a classifier from an arbitrary classifier satisfying the notion of fairness.
+					* Two notions of fairness have been proposed: (i) Equalised Odds (ii) Equal Opportunity
+					* First step is to classify the data in the way you want.
+					* Get the predicted outcome and pass the outcome as an input to the system along with the true outcome, sensitive attribute and the feature which directly affects the outcome.
+					* The predicted outcome are generally binary or vary in some range(for example fico scores for credit ranking used in USA). 
+					* If these scores satisfy our notion of fairness then the classifier will also satisy our notion of fairness.
+					* Thus we calculate these thresholds satifying our fairness criteria and give the results.</p>
+					<p>third paragraph describing the results being displayed on the result section and sexplanation of various pdfs</p>

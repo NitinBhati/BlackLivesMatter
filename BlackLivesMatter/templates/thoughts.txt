@@ -1,0 +1,9 @@
+The system is post proceesing system thus we have predicted outcome too. 
+We need cdf and pdf for calculation and for that we need an attribute which is directly related to the outcome.
+Thus attributes required in the compas file are senstivite attribute, true outcome, predicted outcome, attribute directly relatedwith the outcome.
+My next step is to change those attributes in the main file and thus make the system general.(Almost done)
+Add introduction  to the website and explain the results. 
+Understand the individual calculations and see if i can get some individual result. if yes display them on the website.
+Correct the name of the result buttons to make them more understandable.	(done)
+Host the website 
+for my understanding understand what the fairness notion is finally giving.(I am not sure yet)

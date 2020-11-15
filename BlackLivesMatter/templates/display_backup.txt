@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-16"?>
+<html>
+<body style="margin-left: 0px;margin-top: 0px;margin-right: 0px;margin-bottom: 0px; font-family:Arial, Helvetica, sans-serif;">
+<div width="1000">
+<h1>HELLO WORLD</h1>
+<!--
+    <table>
+                {% for line in csv %}
+                <tr>
+                {% for col in line %}
+                <td>
+                    {{a}}}
+					
+                </td>
+                {% endfor %}
+                </tr>
+                {% endfor %}
+				<h1> Hello World</h1>
+</table>
+-->
+<ul class="upload_file">
+    
+        {% for row in my_file %}
+			{% for col in my_file }
+            <li> <b>{{ col }} </li><br>
+			{% endfor %}
+        {% endfor %}
+
+</ul>
+</div>
+</body>
+</html>

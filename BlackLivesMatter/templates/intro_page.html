@@ -1,0 +1,86 @@
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;}
+</script>
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('http://trendintech.com/wp-content/uploads/2016/12/ml_pictogram.png');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+</style>
+<body>
+<div class="bgimg w3-display-container w3-text-white">
+	  <div class="w3-display-top-middle w3-jumbo">
+	   <center> <h1><b><i>Supervised Machine learning With Fairness Constraints<i></b></h1></center>
+	  </div>
+	  <div class="w3-display-topleft w3-container ">
+		<p><a href = "{{ url_for('upload_page') }}"><button style.display='block' class="w3-button w3-gray">Start</button></a></p>
+		<p><a href = "{{ url_for('index') }}"><button style.display='block' class="w3-button w3-gray">Home</button></a></p>
+		<p><a href = "{{ url_for('about_page') }}"><button style.display='block' class="w3-button w3-gray">About</button></a></p>
+		<p><a href = "{{ url_for('contact_page') }}"><button style.display='block' class="w3-button w3-gray">Contact</button></a></p>
+		<p><a href = "{{ url_for('intro_page') }}""><button style.display='block' class="w3-button w3-gray">Introduction</button></a></p>
+	  </div>
+	  <div class="w3-display-bottomleft w3-container">
+	  <p>powered by:Nitin</a></p>
+	  </div>
+		<form action="upload" method="post" enctype="multipart/form-data">
+				<div class="w3-display-middle">
+				
+				
+				<div style="width: 700px; height: 500px; overflow-y: scroll;">
+      <h2>The Need For Fairness</h2>
+    
+     <p>Our classification algorithms makes use of historic data which reflects the biased nature of the society towards certain categories. For example:
+					There has always been discrimination on the basis of race, white people tend to get good education, good job and good money whereas black people did not always get good resources 
+					to excel in the same way. Though the society is now changing na dpeople are getting equal rights, the things being done on the past are being reflected in the data being recorded in that time. Now these classification
+                    algorithms use these datasets and unknowingly classify the supressed class in a bad way although they now might have different situations and are open to different opportunities. Consider the example of giving a bank loan. In recent times there must be less number of white people who were not able to pay off their loan
+                    as compared to the black people. But this should not interfere with the descision making of whether to give the loan or not in the present time. Classification should be done without keeping in mind their race or color. This is what we meant by fairness in classification.</p>
+  
+    
+	
+      <h2>Designed System In Brief</h2>
+   
+    
+      <p>* Our algorithm proposes an easy to be authenticated and illustrable notion of avoiding discrimination based on the protected attributes.
+					* We give a simple framework to construct a classifier from an arbitrary classifier satisfying the notion of fairness.
+					* Two notions of fairness have been proposed: (i) Equalised Odds (ii) Equal Opportunity
+					* First step is to classify the data in the way you want.
+					* Get the predicted outcome and pass the outcome as an input to the system along with the true outcome, sensitive attribute and the feature which directly affects the outcome.
+					* The predicted outcome are generally binary or vary in some range(for example fico scores for credit ranking used in USA). 
+					* If these scores satisfy our notion of fairness then the classifier will also satisy our notion of fairness.
+					* Thus we calculate these thresholds satifying our fairness criteria and give the results.</p>
+    
+      <h2>Result Explanation</h2>
+    
+    
+	
+      <p></p>
+    </div>
+
+				</div>
+				</form>
+		
+		
+	</div>  
+	<script>
+		
+		</script>
+</body>
+
+

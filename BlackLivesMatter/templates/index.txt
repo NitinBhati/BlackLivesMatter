@@ -1,0 +1,24 @@
+<script>
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;}
+</script>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="{{ url_for('static', filename='C:/Users/Nitin_Bhati/fairness-Compas/flaskr/flaskr/static/css/style.css') }}">
+				<form action="upload" method="post" enctype="multipart/form-data">
+					<center-left>
+					<TABLE>
+						<td>
+						<tr>
+					   <input type="file" name="file"><br><br></td> </tr>
+						<tr><td>Column Having Sensitive Attribute<br><input type ="numeric" name= "sensitive_attr" onkeypress = "return isNumberKey(event)"/></td> </tr>
+						<tr><td>Column Having True Outcome<br><input type ="numeric" name= "outcome_attr" onkeypress = "return isNumberKey(event)"/></td></tr>
+						<tr>  <td><input type="submit" value="Upload"></td> </tr>
+					<table>	
+				</form>
+			</head>	
+	</html>	

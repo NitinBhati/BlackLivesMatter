@@ -1,0 +1,54 @@
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;}
+</script>
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('http://trendintech.com/wp-content/uploads/2016/12/ml_pictogram.png');
+	min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+</style>
+<body>
+	<div class="bgimg w3-display-container w3-text-white">
+	  <div class="w3-display-top-middle w3-jumbo">
+	   <center> <h1><b><i>Supervised Machine learning With Fairness Constraints<i></b></h1></center>
+	  </div>
+	  <div class="w3-display-topleft w3-container ">
+		<p><a href = "{{ url_for('upload_page') }}"><button style.display='block' class="w3-button w3-gray">Start</button></a></p>
+		<p><a href = "{{ url_for('index') }}"><button style.display='block' class="w3-button w3-gray">Home</button></a></p>
+		<p><a href = "{{ url_for('about_page') }}"><button style.display='block' class="w3-button w3-gray">About</button></a></p>
+		<p><a href = "{{ url_for('contact_page') }}"><button style.display='block' class="w3-button w3-gray">Contact</button></a></p>
+		<p><a href = "{{ url_for('intro_page') }}""><button style.display='block' class="w3-button w3-gray">Introduction</button></a></p>
+		</div>
+	  <div class="w3-display-bottomleft w3-container"><p>powered by:Nitin</a></p>
+  </div>
+
+	  <form action="upload" method="post" enctype="multipart/form-data">
+				<div class="w3-display-middle">
+					<p>For Rhein Waal University</p>
+				</div>
+				</form>
+		
+	</div>  
+	<script>
+		
+		</script>
+</body>
+
+
